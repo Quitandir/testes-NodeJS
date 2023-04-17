@@ -6,7 +6,16 @@ A fim de iniciar estudos sobre testes em NodeJS pela plataforma de cursos de tec
 
 Os testes foram aplicados tanto para o modelo, quanto para as rotas da classe Editora da livraria fictícia. 
 
-Ao longo do curso, pude conhecer o conceito da cultura de testes e seus benefícios, assim como aplicar Jest para os testes unitários e Supertest para os testes de integração das rotas.
+## Aprendizados
+
+- Conhecer o conceito da cultura de testes e seus benefícios;
+- Usar o ESlint para testes estáticos a fim de estabelecer um padrão na escrita e formatação do código usando padrão Airbnb;
+- Conhecer e utilizar o Jest, sua função describe, matchers e flag --coverage;
+- Rodar testes assíncronos;
+- Mockar funções com `jest.fn().mockReturnValue`;
+- Utilizar hooks para configurar condições especiais através de `beforeEach` e `afterEach`;
+- Utilizar o Supertest para testar rotas e requisições HTTP;
+- Utulizar `test.each` para facilitar testes repetitivos.
 
 
 
