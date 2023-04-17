@@ -1,6 +1,6 @@
 /* eslint-disable linebreak-style */
 import {
-  afterEach, beforeEach, describe, expect, jest
+  afterEach, beforeEach, describe, expect, jest,
 } from '@jest/globals';
 import request from 'supertest';
 import app from '../../app.js';
